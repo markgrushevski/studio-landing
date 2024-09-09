@@ -4,11 +4,11 @@ import About from './components/About.vue';
 import Service from './components/Service.vue';
 import Review from './components/Review.vue';
 import Projects from './components/Projects.vue';
-import Contacts from './components/Contacts.vue';
+import Contacts from './components/Contacts/Contacts.vue';
 </script>
 
 <template>
-    <div
+    <!--<div
         style="
             padding: 0;
             position: fixed;
@@ -43,7 +43,7 @@ import Contacts from './components/Contacts.vue';
 
             transform: translateX(512px);
         "
-    ></div>
+    ></div>-->
 
     <Hero />
     <About />

@@ -5,7 +5,7 @@ const reviews = [
     {
         id: 1,
         title: 'Дизайн офиса',
-        size: '363 m²',
+        size: '363 м²',
         author: {
             name: 'Иван Марков',
             age: '28',
@@ -17,7 +17,7 @@ const reviews = [
     {
         id: 2,
         title: 'Дизайн квартиры',
-        size: '67 m²',
+        size: '67 м²',
         author: {
             name: 'Елена Кузнецова',
             age: '32',
@@ -29,7 +29,7 @@ const reviews = [
     {
         id: 3,
         title: 'Дизайн винного бара',
-        size: '380 m²',
+        size: '380 м²',
         author: {
             name: 'Софья Волкова',
             age: '30',
@@ -41,7 +41,7 @@ const reviews = [
     {
         id: 4,
         title: 'Дизайн офиса',
-        size: '363 m²',
+        size: '363 м²',
         author: {
             name: 'Иван Марков',
             age: '28',
@@ -53,7 +53,7 @@ const reviews = [
     {
         id: 5,
         title: 'Дизайн квартиры',
-        size: '67 m²',
+        size: '67 м²',
         author: {
             name: 'Елена Кузнецова',
             age: '32',
@@ -246,6 +246,8 @@ function scrollLeft(ev) {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    cursor: pointer;
 }
 
 .review__arrows > *:hover,
