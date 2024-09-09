@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+}
+
+html {
+    overflow: auto;
+}
+
+img {
+    object-fit: contain;
+}
+
+img,
+video,
+canvas {
+    overflow: clip !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:link,
+a:visited {
+    color: inherit;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+img {
+    object-fit: contain;
+}
+
+input,
+button {
+    outline: 0;
+}
+
+:root {
+    --color-black: #222222;
+    --color-white: #ffffff;
+
+    --color-accent: #ffd000;
+
+    --color-secondary: #d6d6d6;
+    --color-secondary-active: #8f8f8f;
+}
+
+.rounded {
+    border-radius: 5px;
+}
+
+.border {
+    border: 1px solid var(--color-black);
+}
+
+.border-black {
+    border-color: var(--color-black);
+}
+.border-white {
+    border-color: var(--color-white);
+}
+.border-accent {
+    border-color: var(--color-accent);
+}
+.border-secondary {
+    border-color: var(--color-secondary);
+}
+.border-secondary-active {
+    border-color: var(--color-secondary-active);
+}
+
+.bg-black {
+    background-color: var(--color-black);
+}
+.bg-white {
+    background-color: var(--color-white);
+}
+.bg-accent {
+    background-color: var(--color-accent);
+}
+.bg-secondary {
+    background-color: var(--color-secondary);
+}
+.bg-secondary-active {
+    background-color: var(--color-secondary-active);
+}
+
+.color-black {
+    color: var(--color-black);
+}
+.color-white {
+    color: var(--color-white);
+}
+.color-accent {
+    color: var(--color-accent);
+}
+.color-secondary {
+    color: var(--color-secondary);
+}
+.color-secondary-active {
+    color: var(--color-secondary-active);
+}
+
+.font-h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 78px;
+}
+.font-h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+}
+.font-h2-bold {
+    font-family: 'Source Sans 3', system-ui;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+}
+.font-h3 {
+    font-family: 'Source Sans 3', system-ui;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+}
+.font-header {
+    font-family: 'Source Sans 3', system-ui;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.font-text-headline {
+    font-family: 'Source Sans 3', system-ui;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    font-variant: all-small-caps;
+}
+.font-text-large {
+    font-family: 'Source Sans 3', system-ui;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.font-text {
+    font-family: 'Source Sans 3', system-ui;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.font-text-small {
+    font-family: 'Source Sans 3', system-ui;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.font-button {
+    font-family: 'Source Sans 3', system-ui;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 78px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+h2.bold {
+    font-family: 'Source Sans 3', system-ui;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+h3 {
+    font-family: 'Source Sans 3', system-ui;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+h4 {
+    font-family: 'Source Sans 3', system-ui;
+    font-size: 32px;
+    font-weight: 400;
+    font-variant: all-small-caps;
+    line-height: 40px;
+}
+
+header {
+    font-family: 'Source Sans 3', system-ui;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Source Sans 3', system-ui;
+    font-size: 20px;
+    font-weight: 600;
+
+    line-height: 25px;
+}
