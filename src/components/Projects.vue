@@ -12,21 +12,21 @@ const projects = [
         name: 'Офис',
         size: '220 м²',
         style: 'Лофт',
-        image: '/8.png'
+        image: '/9.png'
     },
     {
         id: 3,
         name: 'Жилая квартира',
         size: '59 м²',
         style: 'Минимализм',
-        image: '/8.png'
+        image: '/10.png'
     },
     {
         id: 4,
         name: 'Жилая квартира',
         size: '46 м²',
         style: 'Минимализм',
-        image: '/8.png'
+        image: '/11.png'
     }
 ];
 </script>
@@ -40,7 +40,7 @@ const projects = [
                 <img :src="project.image" alt="" />
 
                 <div class="projects__content">
-                    <div class="projects__number font-text">{{ '0' + i }}</div>
+                    <div class="projects__number font-text">{{ '0' + (i + 1) }}</div>
 
                     <div class="projects__description">
                         <span class="font-button color-accent">{{ project.name }}</span>
